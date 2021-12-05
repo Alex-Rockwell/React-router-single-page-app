@@ -1,0 +1,36 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #333;
+  padding: 0 5rem;
+}
+
+.Navbar-link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 3rem 5rem;
+}
+
+.Navbar-link.active {
+  color: #333;
+  background-color: #ddd;
+}
+
+.main-link {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  padding-bottom: 4px;
+  border-bottom: 2px solid rgba(238, 238, 238, 0.05);
+}
+
+.main-link:hover {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #333;
+}
+
+ul {
+  list-style: none;
+}
